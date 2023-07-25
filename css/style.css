@@ -38,6 +38,94 @@ ul {
     color: #000;
 }
 
+/* company */
+
+.company{
+    padding: 128px 0;
+}
+
+.company__title{
+    font-size: 48px;
+    max-width: 331px;
+    width: 100%;
+    color: #000;
+    margin-bottom: 26px;
+}
+
+.company__subtitle{
+    max-width: 408px;
+    width: 100%;
+    font-size: 17px;
+    color: #46474E;
+}
+
+.company__username-title{
+    color: #000;
+    margin-bottom: 4px;
+}
+
+.company__username-subtitle{
+    color: #697882;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.company__user{
+    max-width: 36px;
+    height: 36px;
+    width: 100%;
+}
+
+.company__card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 449px;
+    width: 100%;
+    padding: 24px 23px;
+    background: #fff;
+    border: 1px solid #E8E8E9;
+    border-radius: 10px;
+    margin-bottom: 17px;
+}
+
+
+
+.company__username{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 17px;
+}
+
+.company__txt{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.company__card-txt{
+    margin-bottom: 17px;
+}
+
+.company__url{
+    color: #46474E;
+}
+
+.company__time{
+    font-size: 13px;
+    color: #697882;
+}
+
+.company .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* company */
+
 /* team */
 
 .team{
