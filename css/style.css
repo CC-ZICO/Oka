@@ -52,11 +52,23 @@ ul {
     margin-bottom: 26px;
 }
 
+@media(max-width:360px){
+    .company__title{
+        text-align: center;
+    }
+}
+
 .company__subtitle{
     max-width: 408px;
     width: 100%;
     font-size: 17px;
     color: #46474E;
+}
+
+@media(max-width:360px){
+    .company__subtitle{
+        text-align: center;
+    }
 }
 
 .company__username-title{
