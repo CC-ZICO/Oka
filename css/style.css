@@ -121,6 +121,13 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 880px){
+    .company .container{
+        gap: 15px;
+    }
 }
 
 
