@@ -37,3 +37,59 @@ ul {
     background: #fff;
     color: #000;
 }
+
+/* team */
+
+.team{
+    padding: 174px 0;
+}
+
+.team__title{
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.team__subtitle{
+    max-width: 705px;
+    width: 100%;
+    font-size: 17px;
+    color: #46474E;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.team__image-fuji{
+    max-width: 124px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.team__image-title{
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+.team__image-subtitle{
+    font-size: 13px;
+    color: #46474E;
+    font-weight: 400;
+}
+
+.team__title-image{
+    max-width: 226px;
+    width: 100%;
+    text-align: center;
+}
+
+.team__image{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* team */
